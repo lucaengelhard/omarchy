@@ -3,5 +3,8 @@
 # Launch the Omarchy wifi controls (provided by the Impala TUI).
 # Attempts to unblock the wifi service first in case it should be been blocked.
 
+# using gazelle with network manager instead of imapla and iwd in the future?
+# https://github.com/basecamp/omarchy/pull/2909
+
 rfkill unblock wifi
 omarchy-launch-or-focus-tui impala
