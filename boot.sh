@@ -17,7 +17,7 @@ ansi_art='                 ▄▄▄
 clear
 echo -e "\n$ansi_art\n"
 
-sudo pacman -S reflector
+sudo pacman -S --noconfirm --needed reflector
 sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 sudo pacman -Syuu
 
