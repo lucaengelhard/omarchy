@@ -1,8 +1,6 @@
 # Omarchy core package list installed via install/packaging/base.sh
 # This file is also used by the ISO builder when determining needs
 
-1password-beta
-1password-cli
 aether
 alacritty
 asdcontrol
@@ -86,11 +84,9 @@ noto-fonts-emoji
 noto-fonts-extra
 nss-mdns
 nvim
-obs-studio
 obsidian
 omarchy-nvim
 omarchy-walker
-opencode
 pamixer
 pinta
 playerctl
@@ -104,13 +100,11 @@ python-poetry-core
 python-terminaltexteffects
 qt5-wayland
 ripgrep
-ruby
 rust
 satty
 sddm
 signal-desktop
 slurp
-spotify
 starship
 sushi
 swaybg
@@ -145,3 +139,18 @@ xournalpp
 yaru-icon-theme
 yay
 zoxide
+
+# Additional packages
+gimp
+hyprmon
+inkscape
+jellyfin-tui
+keepassxc
+qbittorrent
+rawtherapee
+scribus
+syncthing
+telegram-desktop
+thunderbird
+vscodium
+zen-browser-bin
