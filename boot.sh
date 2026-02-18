@@ -17,7 +17,11 @@ ansi_art='                 ▄▄▄
 clear
 echo -e "\n$ansi_art\n"
 
-sudo pacman -Syu --noconfirm --needed git
+sudo pacman -S reflector
+sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+sudo pacman -Syuu
+
+sudo pacman -Syu --noconfirm --needed git vim nano fastfetch htop gcc make cmake curl perl wget terminus-font
 
 # Use custom repo if specified, otherwise default to basecamp/omarchy
 OMARCHY_REPO="${OMARCHY_REPO:-lucaengelhard/omarchy}"
