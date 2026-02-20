@@ -36,7 +36,7 @@ cd ~/.local/share/omarchy
 git fetch origin "${OMARCHY_REF}" && git checkout "${OMARCHY_REF}"
 cd -
 
-export OMARCHY_MIRROR=edge
+export OMARCHY_MIRROR=stable
 
 echo -e "\nInstallation starting..."
 source ~/.local/share/omarchy/install.sh
